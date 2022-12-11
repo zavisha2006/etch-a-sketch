@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch!</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body ondragstart="return false;" ondrop="return false;">
+        <h1>Etch-A-Sketch!</h1>
+        <h4>By Zavish Abbasi</h4>
+        <table id="etch-table" cellspacing="0">
+        </table>
+        <label for="modeSelection">Select your mode!</label>
+        <select name="modeSelection" id="modeSelection">
+            <option value="black">Black mode!</option>
+            <option value="rainbow">Rainbow mode!</option>
+        </select>
+        <br>
+        <label for="clearCanvas">Click here to clear your canvas!</label>
+        <button id="clearCanvas" onclick="clearzz()">Click</button>
+    </body>
+</html>
